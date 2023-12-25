@@ -1,0 +1,16 @@
+.blackwhite { /*classe*/
+    background-color: rgb(190, 190, 190);
+}
+#a {
+    /*Identificador*/
+}
+h1 {
+    /*seletores*/ 
+}
+* { 
+    padding: 10px;
+    text-align: center;
+}
+button {
+    border-radius: 20px;
+}
