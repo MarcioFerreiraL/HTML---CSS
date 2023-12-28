@@ -4,6 +4,18 @@
 }
 button {
     border-radius: 20px;
-    border-bottom: none;
-    color:chocolate;
+    border: none;
+    box-shadow: none;
+    color:#28F79A;
+    background-color: #4F7866;
+}
+button:hover { 
+    border-radius: 20px;
+    border: none;
+    box-shadow: none;
+    color:#21be78;
+    background-color: #273d34;
+}
+body {
+    background-color: #A25B50;
 }
