@@ -1,0 +1,9 @@
+* { 
+    padding: 10px;
+    text-align: center;
+}
+button {
+    border-radius: 20px;
+    border-bottom: none;
+    color:chocolate;
+}
