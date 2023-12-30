@@ -1,0 +1,28 @@
+* {
+    text-align: center;
+}
+button {
+    border-radius: 20px;
+    border: double #21be78;
+    box-shadow: none;
+    color:#28F79A;
+    background-color: black;
+
+}
+button:hover { 
+    border-radius: 20px;
+    border: double black;
+    box-shadow: none;
+    color:#21be78;
+    background-color: #273d34;
+}
+body {
+    background-color: white;
+}
+.quadrado {
+    width: 400px;
+    height: 600px;
+    background-color: #A25B50;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
