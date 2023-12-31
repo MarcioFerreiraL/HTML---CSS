@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+}
+.quadrado {
+    padding: 30px 10px;
+    margin: 10px;
+    background: #2b3035;
+    border-radius: 10px;
+    max-width: 800px;
+    min-width: auto;
+    div {
+        color: white;
+    }
+    bottom {
+        color: green;
+    }
+}
+input {
+    margin: 30px;
+    text-align: left;
+    display: flex;
+    width: 340px;
+}
+a {
+    margin-left: 10px;
+}
