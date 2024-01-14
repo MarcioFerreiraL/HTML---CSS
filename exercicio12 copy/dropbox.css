@@ -1,0 +1,56 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Botão do dropdown */
+.dropbtn {
+  background-image: linear-gradient(to right, blue, red);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Conteúdo do dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0d6dfda8;
+  padding: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  min-width: 200px; /* Largura mínima do dropdown */
+  right: 0; /* Ajuste para expandir da direita para a esquerda */
+  border-radius: 10px;
+}
+
+/* Links dentro do dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Cor do link ao passar o mouse */
+.dropdown-content a:hover {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(0, 0, 255, 0.2));
+  border-radius: 5px;
+  border: solid 2px white;
+}
+
+/* Mostra o dropdown quando o botão é clicado ou passa o mouse */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

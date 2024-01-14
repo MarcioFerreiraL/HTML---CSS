@@ -1,89 +1,106 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 1px;
 }
-body {
-    background-color: white;
-}
-.quadrado {
-    display: flex;
-    padding: 20px 20px;
-    margin: auto;
-    background: #2b3035;
-    border-radius: 10px;
-    max-width: 800px;
-    min-width: auto;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.quadrado label {
-        color: white;
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: brown;
     }
-
-.quadrado a {
+    .quadrado {
+        display: flex;
+        padding: 20px 20px;
+        margin: auto;
+        width: 95%;
+        background: brown;
+        border-radius: 10px;
+        min-width: auto;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.19);
+    }
+    .quadrado label {
+            color: white;
+        }
+    
+    .quadrado a {
+            text-decoration: none;
+            padding: 6px;
+            border-radius: 8px;
+            border: solid 1px white;
+            color: white;
+            float: right;
+            display: block;
+        }
+    .quadrado a:hover {
+            text-decoration: none;
+            padding: 6px;
+            background-color: white;
+            border-radius: 8px;
+            border: solid 1px rgba(0, 110, 255, 0);
+            color: black;
+        }
+    h1 {
+        text-align: center;
+        padding-top: 10px;
+    }
+    .link {
+        margin-left: auto;
+      }
+    .espacamento {
+        margin: 0px 20px;
+    }
+    .botao {
+        padding: 10px 40px;
         text-decoration: none;
-        padding: 6px;
-        border-radius: 8px;
-        border: solid 1px white;
         color: white;
-        float: right;
+        background-color: #2b3035;
+        border-radius: 10px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        min-width: auto;
+        max-width: auto;
+    }
+    .botao:hover {
+        padding: 10px 40px;
+        text-decoration: none;
+        color: #2b3035;
+        background-color: rgba(255, 255, 255, 0);
+        border: #2b3035 1px solid;
+        border-radius: 10px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        min-width: auto;
+        max-width: auto;
+    }
+    .drop a{
+        text-decoration: none;
+        color: chartreuse;
+        display: inline-block;
+    }
+    .drop li, ul{
+        display: none;
+        list-style-type: none;
+    }
+    .drop a, li, ul:hover{
         display: block;
+        list-style-type: none;
     }
-.quadrado a:hover {
-        text-decoration: none;
-        padding: 6px;
-        background-color: white;
-        border-radius: 8px;
-        border: solid 1px rgba(0, 110, 255, 0);
-        color: black;
-    }
-h1 {
-    text-align: center;
-    padding-top: 10px;
 }
-.link {
-    margin-left: auto;
-  }
-.espacamento {
-    margin: 0px 20px;
+@media only screen and (min-width: 600px) {
+
 }
-.botao {
-    padding: 10px 40px;
-    text-decoration: none;
-    color: white;
-    background-color: #2b3035;
-    border-radius: 10px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    min-width: auto;
-    max-width: auto;
+@media only screen and (min-width: 768px) {
+} 
+   
+@media only screen and (min-width: 992px) {
+   
 }
-.botao:hover {
-    padding: 10px 40px;
-    text-decoration: none;
-    color: #2b3035;
-    background-color: rgba(255, 255, 255, 0);
-    border: #2b3035 1px solid;
-    border-radius: 10px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    min-width: auto;
-    max-width: auto;
-}
-.drop a{
-    text-decoration: none;
-    color: chartreuse;
-    display: inline-block;
-}
-.drop li, ul{
-    display: none;
-    list-style-type: none;
-}
-.drop a, li, ul:hover{
-    display: block;
-    list-style-type: none;
+
+@media only screen and (min-width: 1200px) {
+    
 }
